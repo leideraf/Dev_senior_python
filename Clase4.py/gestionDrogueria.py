@@ -45,7 +45,7 @@ while True:
                     print(f'Quedan {cantidades[i]} unidades {nombres[i]} en el inventario ')
                 else:
                     print('cantidad insuficiente en inventario')
-                    breakE
+                    break
         if not productoEncontrado:
             print('Producto no encontrado en el inventario')
     elif opcion == 2:
